@@ -12,7 +12,13 @@
   main { max-width: 680px; margin: 0 auto; padding: 36px 20px 64px; }
   img.icone { width: 96px; height: 96px; border-radius: 22px; display: block; }
   h1 { font-size: 34px; line-height: 1.1; margin: 20px 0 8px; font-weight: 900; }
-  h1 span { color: #ffd23f; }
+  h1.logo { margin: 26px 0 14px; }
+  .cases { display: flex; gap: 7px; }
+  .cases b { position: relative; display: grid; place-items: center; width: 54px; height: 54px; border-radius: 10px;
+    background: #fff; color: #1b1647; box-shadow: 0 5px 0 #8f86d6; font: 900 38px/1 ui-rounded, "SF Pro Rounded", system-ui, sans-serif; }
+  .cases i { position: absolute; top: 3px; left: 6px; font: 800 11px/1 ui-rounded, system-ui, sans-serif; font-style: normal; opacity: .7; }
+  .gamme { display: block; margin-top: 16px; color: #ffd23f; letter-spacing: 6px;
+    font: 800 30px/1 "Futura Condensed ExtraBold", "Futura", "Arial Narrow", sans-serif; font-stretch: condensed; }
   h2 { font-size: 19px; margin-top: 30px; color: #ffd23f; }
   p, li { color: #e4e0ff; }
   a { color: #3de0ff; }
@@ -24,7 +30,7 @@
 <body>
 <main>
 <img class="icone" src="icon.png" alt="Icône de Qult Gaming">
-<h1>QULT <span>GAMING</span></h1>
+<h1 class="logo" aria-label="Qult Gaming"><span class="cases" aria-hidden="true"><b><i>1</i>Q</b><b>U</b><b>L</b><b>T</b></span><span class="gamme" aria-hidden="true">GAMING</span></h1>
 <p>Des mots croisés sur le jeu vidéo, de l'arcade des années 80 aux jeux de 2026. Personnages, consoles, studios, jargon de joueur : tout ce qui a fait le jeu vidéo, en grilles.</p>
 <h2>150 grilles, trois niveaux</h2>
 <p>Facile, moyen ou difficile, à jouer dans l'ordre que tu veux. Chaque grille finie fait monter ton Level.</p>
